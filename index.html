@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Inter:wght@400;600;700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;500;700&family=Open+Sans&family=Poppins:wght@400;700&family=Racing+Sans+One&display=swap" rel="stylesheet">
+  <title>Your Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="images/logo.avif" alt="Your Logo">
+    <nav>
+      <ul>
+        <li><a href="#profile">&lt;About&gt;</a></li>
+        <li><a href="#projects">&lt;Work&gt;</a></li>
+        <li><a href="#contact">&lt;Contact&gt;</a></li>
+      </ul>
+      <button class="resume-btn" onclick="window.open('./assets/resume.pdf')">Resume</button>
+    </nav>
+  </header>
+  <main>
+    <div class="main-container">
+        <span class="main-text-1" id="company">Dear Dynatrace, </span>
+        <span class="main-text-2" id="rest"> this project has been built for you.</span>
+    </div>
+    <div class="wrappar">
+        <div class="static-text">I'm </div>
+        <ul class="dynamic-texts">
+            <li><span> Mohammad</span></li>
+            <li><span> a Programmer</span></li>
+            <li><span> a Reacter</span></li>
+            <li><span> a Designer</span></li>
+        </ul>
+    </div>
+  </main>
+  <section id="profile">
+    <div class="section-picture-container">
+        <img src="images/me-picture.jpg">
+    </div>
+    <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Mohammad Kizawi</h1>
+        <p class="section-text-p2">Frontend Developer</p>
+        <div class="btn-contaniner">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Resume</button>
+            <button class="btn btn-color-1">
+                <a  class="btn btn-color-1" href="mailto:your-email@example.com">Contact</a>
+            </button>
+        </div>
+        <div id="sociai-container">
+            <img src="images/github.png" alt="My Github" class="icon" onclick="location.href='//github.com/Mohammad-200'">
+        </div>
+    </div>
+  </section>
+  <div class="skills_section">
+        <div class="skills_head">
+            <h2>My <span>Skills</span></h2>
+            <p>Here is my skills to represent my Expertise</p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>90%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>85%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>SASS</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="sass"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Java Script</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>React js</p>
+                    <P>75%</P>
+                </div>
+                <div class="bar">
+                    <span class="react"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Node js</p>
+                    <P>50%</P>
+                </div>
+                <div class="bar">
+                    <span class="node"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Git & Github</p>
+                    <P>65%</P>
+                </div>
+                <div class="bar">
+                    <span class="git"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>SQL</p>
+                    <P>60%</P>
+                </div>
+                <div class="bar">
+                    <span class="mongo"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="projects">
+        <div class="skills_head">
+            <h2>My <span>Projects</span></h2>
+            <p>Get an idea about my work</p>
+        </div>
+        <div class="projects-list">
+            <div class="projects-1">
+                <img class="project-img" src="images/project-1.png">
+                <div class="project-info">
+                    <h3 class="project-name">Jewelry Shop</h3>
+                    <p class="project-description">A recent project of mine, I built this project actually because I wanted to improve my JavaScript skills. It took me around a week to finish it, and I focused on creating a friendly interface. I also used advanced JavaScript technologies, such as ES6 features, in its development.</p>
+                    <div class="project-btns">
+                        <button class="btn btn-color-1" onclick="location.href='//github.com/Mohammad-200/Jewelry-Shop'">Github</button>
+                        <button class="btn btn-color-2" onclick="location.href='//mohammad-200.github.io/Jewelry-Shop/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-1">
+            <!-- Replace image with video -->
+                <video class="project-video" src="assets/movie-project-video.mp4" controls></video>
+
+                <div class="project-info">
+                    <h3 class="project-name">Movie Application</h3>
+                    <p class="project-description">This is my graduation project built using React. While the project is still in progress and not yet hosted, I strongly encourage you to watch the 1-minute video. It will provide a better understanding of the project and offer insights into my current skill set.</p>
+                    <div class="project-btns">
+                        
+                        
+                        <button class="btn btn-color-2" onclick="playVideo()">Play Video</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact</h2>
+            <p>I really appreciate the time and effort you've put into reviewing my projects and skills. Whether the response to my application is positive or negative, I am interested to hear back from you. Please feel free to contact me via email at <a href="mailto:mohammad.kizawi12@e-uvt.ro" class="email-link">mohammad.kizawi12@e-uvt.ro</a>.</p>
+        </div>
+    </section>
+
+    
+
+<script src="main.js"></script>
+</body>
+</html>
