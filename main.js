@@ -15,18 +15,18 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.querySelector(".main-text-1").style.opacity = "1";
     fadeIn(document.querySelector(".main-text-1"));
-  }, 2000);
+  }, 1500);
 
   // Initial opacity for the second text with a delay
   setTimeout(function () {
     document.querySelector(".main-text-2").style.opacity = "1";
     fadeIn(document.querySelector(".main-text-2"));
-  }, 4000);
+  }, 3500);
 
   setTimeout(function () {
     document.querySelector(".wrappar").style.opacity = '1'
     fadeIn(document.querySelector(".wrappar"));
-  }, 6000)
+  }, 5000)
 });
 
 function playVideo() {
